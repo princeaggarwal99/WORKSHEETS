@@ -1,0 +1,146 @@
+WORKSHEET 2
+ PYTHON
+
+
+1. Which of the following is not a core datatype in python?
+A) list B) struct
+C) tuple C) set
+Answer:- B) Struct
+
+
+
+2. Which of the following is an invalid variable name in python?
+A) _init_ B) no_1
+C) 1_no D) _1
+Answer:- C) 1_no
+
+
+
+
+3. Which one of the following is a keyword in python?
+A) in B) _init_
+C) on D) foo
+Answer:-A) in
+
+
+
+
+4. In which of the following manner are the operators of the same precedence executed in python?
+A) Left to Right B) BODMAS
+C) Right to Left D) None of these
+Answer:- D) None of these
+
+
+
+
+5. Arrange the following in decreasing order of the precedence when they appear in an expression in python?
+i) Multiplication ii) Division iii) Exponential iv) Parentheses
+A) iii – iv – ii – i B) iii – iv – i – ii
+C) iv – iii – ii – i D) iii – ii – i – iv
+Answer:- C) iv – iii – ii – i
+
+
+
+
+6. (28//6)**3/3%3 = ?
+A) 7.1111… B) 0
+C) 0.3333… D) 1
+Answer:- C) 0.3333...
+
+
+
+
+7. Which of the following is not equal to x16 ?
+A) x**4**4 B) x**16
+C) x^16 D) (x**4)**4
+Answer:- A) X**4**4
+
+
+
+
+8. a = input(“Enter an integer”). What will be the data type of a?
+A) int B) str
+C) float D) double
+Answer:- B) Str
+
+9. Which of the following statements are correct?
+A) Division and multiplication have same precedence in python
+B) Python’s operators’ precedence is based on PEDMAS
+C) Python’s operators’ precedence is based on VBODMAS
+D) In case of operators’ having same precedence, the one on the left side is executed first.
+Answer:-
+A) Division and multiplication have same precedence in python
+B) Python’s operators’ precedence is based on PEDMAS
+D) In case of operators’ having same precedence, the one on the left side is executed first.
+
+10. Which of the following is(are) valid statement(s) in python?
+A) abc = 1,000,000 B) a b c = 1000 2000 3000
+C) a,b,c = 1000, 2000, 3000 D) a_b_c = 1,000,000
+Answer:-
+A) abc = 1,000,000
+C) a,b,c = 1000, 2000, 3000
+D) a_b_c = 1,000,000
+
+11. Differentiate between a list, tuple, set and dictionary.
+Answer:-
+List:  list is a collection which is ordered , lists are mutable (changeable) ,Brackets used to represent: [],Lists are like arrays declared in other languages.
+tuple: Collection of items which is ordered ,Tuples are immutable (unchangeable) ,Brackets used to represent: ()
+sets: Collection of Unordered and Unindexed items,Sets are mutable (changeable).,Does not take duplicate Values,Brackets used to represent: { }
+Dictionaries: A dictionary is a collection which is unordered, changeable and indexed,In Python dictionaries are written with curly brackets, and they have keys and values.
+Brackets used to represent: {}
+
+12.Are strings mutable in python? Suppose you have a string “I+Love+Python”, write a small code to replace ‘+’
+with space in python
+Answer:-
+yes, strings are mutable in python.
+x="I+Love+Python"
+x.replace('+',' ')
+
+13. What does the function ord() do in python? Explain with example. Also, write down the function for getting
+the datatype of a variable in python.
+
+Answer:-
+The ord() function returns the number representing the unicode code of a specified character.
+example:=
+input:  x="z"
+        ord(x)
+output: 122
+therefore, ord() returned the unicode of a single character
+
+function for getting the datatype of a variable in python:
+def datatype(z):
+    a=type(z)
+    return a
+
+14. Write a python program to solve a quadratic equation of the form 𝑎𝑥2 + 𝑏𝑥 + 𝑐 = 0. Where a, b and c are to
+be taken by user input. Handle the erroneous input, such as ‘a’ should not be equal to 0.
+
+Answer:-
+
+import cmath
+a=float(input("enter value of a "))
+b=float(input("enter value of b "))
+c=float(input("enter value of c "))
+
+# discriminant
+d=(b**2)-(4*a*c)
+
+x1 = (-b-cmath.sqrt(d))/(2*a)
+x2 = (-b+cmath.sqrt(d))/(2*a)
+print(x1,x2)
+
+15. Write a python program to find the sum of first ‘n’ natural numbers without using any loop. Ask user to input
+the value of ‘n’.
+
+Answer:-
+def find_sum(n):
+    sum=0
+    x=1
+    while x<=n :
+        sum = sum + x
+        x = x + 1
+    return sum
+
+n=int(input("enter the value for n :"))
+print(find_sum(n))    
+

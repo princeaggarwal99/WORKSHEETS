@@ -1,0 +1,145 @@
+WEB SCRAPING
+WORKSHEET – 1 answers :
+
+1.	Which of the following extracts information from user generated content?
+A) Java script tagging			B) Web scraping
+C) A/B testing				D) MROCs
+
+answer- B) Web scraping
+
+
+2.	Which of the following is not a web scraping library in python?
+A) selenium				B) Beautiful soup
+C) Requests				D) scrapy
+
+answer-C) Requests
+
+3.	Selenium tests __________?
+A) Browser based applications		B) DOS applications
+C) GUI applications			D) All of the above
+
+answer-A) Browser based applications
+
+4.	Task of crawling is performed by a complex software which is known as:
+A) Scraper				B) Crawler
+C) Boat					D) Spider
+
+answer- B) Crawler
+
+5.	Which of the following commands is used to access name of a tag in Beautiful Soup?
+A) tag.attrs				B) tag.name
+C) tag,id				C) tag[‘id’]
+
+answer- B)tag.name
+
+6.	Which of the following is the default parser in Beautiful Soup?
+A) html.parser				B) html5lib
+C) lxml					D) lxml-xml
+
+answer- C) lxml	
+
+7.	In selenium the webdriver is used to?
+A) design a test using selenese
+B) test a web application on firefox only
+C) execute tests on HtmlUnit browser
+D) to download any content from a webpage
+
+answer-A) design a test using selenese
+
+8.	In selenium, driver.find_elements_by_xpath(‘given xpath’) returns:
+A) the first webelement associated with the ‘given xpath’
+B) the url of first webelement associated with the ‘given xpath’
+C) the list of all webelements associated with the ‘given xpath’
+D) all the attributes of the first webelement associated with the ‘given xpath’
+
+answer-C) the list of all webelements associated with the ‘given xpath’
+
+9.	The script ‘window.scrollBy(0,a) scrolls the webpage by?
+A) ‘a’ number of horizontal spaces
+B) ‘a’ number of lines
+C) ‘a’ number of pixels horizontally
+D) ‘a’ number of pixels vertically
+
+answer-D) ‘a’ number of pixels vertically
+
+
+In Q10, more than one options are correct, Choose all the correct options:
+10.	Which of the following is(are) tags of HTML?
+A) <a>					B) <b>
+C) <image>				D) <href>
+
+answer-A) <a>	
+       B) <b>
+       C) <image>
+
+
+11.	What is the main difference between a web scraper and a web crawler?
+
+answer-
+A web scraper's main purpose is to extract data from webpages. Web scrapers often have the ability to browse to different pages and follow links. 
+Though web scrapers can crawl to different pages their primary purpose is scraping the data on those pages, not indexing the web ! while,
+Web crawler is nothing but a web scraper with extra crawling functionality.
+web crawlers usually focus on indexing the web , sometimes called a spider or spiderbot and often shortened to crawler, is an Internet bot that 
+systematically browses the World Wide Web, typically for the purpose of Web indexing.
+# When a keyword is entered in the google search then search engine search for each web pages and give index according to information and then displays the result.
+
+12.     What is ‘robots.txt’ file? What is the use of ‘robots.txt’ file?
+
+answer-
+ A robots.txt file tells search engine crawlers which pages or files the crawler can or can't request from your site. 
+ This is used mainly to avoid overloading your site with requests as  it is not a mechanism for keeping a web page out of Google. To keep a web page out of Google, 
+ you should use noindex directives, or password-protect your page.
+        
+ robots.txt is used primarily to manage crawler traffic to your site, and usually to keep a page off Google, depending on the file type
+ Website owner places this robots.txt file in a root folder and when crawling takes place it first read the instructions in that file and check whether owner wants to 
+ share information or not. If file is not present then crawler understand that there is no limitations on the website and can extract any information present.
+
+13.	What are static and dynamic web pages?
+
+answer-
+Static Web page:
+Static Web pages are very simple. It is written in languages such as HTML, JavaScript, CSS, etc. For static web pages when a server receives a request for a web page, 
+then the server sends the response to the client without doing any additional process. And these web pages are seen through a web browser. In static web pages, Pages will 
+remain the same until someone changes it manually.
+
+Dynamic Web Pages:
+Dynamic Web Pages are written in languages such as CGI, AJAX, ASP, ASP.NET, etc. In dynamic web pages, the Content of pages is different for different visitors.
+It takes more time to load than the static web page. Dynamic web pages are used where the information is changed frequently, for example, stock prices, weather information, etc.
+
+
+14.	Write a python program to check whether a webpage contains a title or not.
+
+answer-
+       
+import selenium
+from selenium import webdriver
+driver_path=r"C:\Users\prince\Downloads\chromedriver_win32\chromedriver.exe "
+driver=webdriver.Chrome(executable_path=driver_path)
+url=input('Enter the url for title check :')
+driver.get(url)
+check_title = driver.title   
+if check_title:
+    print('Title is present for the web page and the title is :',check_title)
+else:
+    print('Title is not present for the url you entered')
+
+
+15.	Write a python program to access the search bar and search button on images.google.com.
+
+answer-
+
+import selenium
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+driver_path=r"C:\Users\prince\Downloads\chromedriver_win32\chromedriver.exe "
+driver=webdriver.Chrome(executable_path=driver_path)
+url='https://images.google.com/?gws_rd=ssl'
+driver.get(url)
+#access search  bar
+search_bar=driver.find_element_by_xpath("//input[@class='gLFyf gsfi']")
+search_bar.send_keys(input("enter to search : "))
+#access search button
+button=driver.find_element_by_xpath("//button[@class='Tg7LZd']").click()
+
+
+
