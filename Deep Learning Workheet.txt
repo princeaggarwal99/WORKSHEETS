@@ -1,0 +1,147 @@
+WORKSHEET-1 solutions
+DEEP LEARNING 
+
+
+1. Which of the following can approximate any function universally (i.e. universal approximators)?
+A) Boosted Decision Trees B) Neural Networks
+C) Kernel SVM D) All of the above
+
+answer: B) Neural Networks
+
+2. In which of the following domains we cannot use neural networks?
+A) Image Processing B) Speech Processing
+C) Fraud Detection D) None of the above
+
+answer: D) None of the above
+
+3. Rearrange the following steps of a gradient descent algorithm in correct order of their occurrence?
+i. Initialize random weight and bias
+ii. Repeat the process until you find the best weights of network
+iii. Change weights and biases for each neuron to reduce the error
+iv. Calculate error distances between the actual and the predicted value
+v. Pass an input through the network and get values from output layer
+Choose the correct option:
+A) iv – i – iii – v – ii B) v – i – iii – iv –ii
+C) i – v – iv – iii – ii D) i – v – iii –iv –ii
+
+answer: C) i – v – iv – iii – ii
+
+4. What is the full form of RNN?
+A) Recurrent Neural Network B) Recursive Neural Network
+C) Redundant Neural Network D) Resurrection Neural Network
+
+answer: A) Recurrent Neural Network
+
+5. What is plasticity in neural networks?
+A) input pattern keeps on changing B) input pattern has become static
+C) output pattern keeps on changing D) output is static
+
+answer: A) input pattern keeps on changing 
+
+6. What is stability plasticity dilemma?
+A) system can neither be stable nor plastic
+B) static inputs & categorization can’t be handled
+C) dynamic inputs & categorization can’t be handled
+D) none of the above
+
+answer: D) none of the above
+
+7. Read the following statements:
+Statement 1: It is possible to train a network well by initializing all the weights as 0
+Statement 2: It is possible to train a network well by initializing biases as 0
+Which of the statements given above is true, Choose the correct option?
+A) Statement 1 is true while Statement 2 is false
+B) Statement 2 is true while statement 1 is false
+C) Both statements are true
+D) Both statements are false
+
+answer: B) Statement 2 is true while statement 1 is false
+
+8. Which of the following architecture has feedback connections?
+A) Recurrent Neural network B) Convolutional Neural Network
+C) Restricted Boltzmann Machine D) simple Artificial Neural Network
+
+answer: A) Recurrent Neural network
+
+9. In training a neural network, you notice that the loss does not decrease in the few starting epochs. The reason behind it could be
+A) Learning Rate is low B) Regularisation parameter is high
+C) Regularisation parameter is low D) Stuck at local minima
+
+answer:A) Learning Rate is low
+       B) Regularisation parameter is high
+       D) Stuck at local minima
+
+10. Which of the following function(s) can be used to impart non – linearity in a neural network?
+A) Stochastic Gradient Descent B) Rectified Linear Unit
+C) Convolution Function D) Sigmoid Function
+
+answer: B) Rectified Linear Unit
+        D) Sigmoid Function
+
+
+11. What is Deep Learning?
+
+answer:
+Deep learning is a class or subfield of machine learning inspired by the structure and function of the brain called artificial neural networks that uses multiple layers to
+progressively extract higher level features from the raw input. 
+DL is used when there is very large and complex data set as comapred to ML ,When the dataset is small and less comolex then the ML works efficient but when the data set is large 
+and became complex the DL is used. 
+Types of Deep Learnings:
+ANN (Artificial NN)
+CNN (Convolution NN)
+RNN (Recurrent NN)
+
+12. What is reinforcement learning?
+
+answer:
+Reinforcement learning  is an area of machine learning concerned with how software agents ought to take actions in an environment in order to maximize the notion of cumulative reward.
+Reinforcement learning is one of three basic machine learning paradigms, alongside supervised learning and unsupervised learning
+There are three approaches to implement a Reinforcement Learning algorithm.
+Value-Based,
+Policy-based,
+Model-Based
+
+13. What Are the Differences Between Machine Learning and Deep Learning?
+
+answer:
+    Machine Learning :
+    A subset of artificial intelligence involved with the creation of algorithms which can modify itself without human intervention to produce desired output by feeding itself through
+    structured data.
+    --It is generally used when we have label data means we have to provide the dataset 
+    --ML takes very less time for traing the data but for testing it takes more time
+    --types:
+       supervised ML,unsupervised ML,Reinforcement learning
+    Deep Learning:
+    A subset of machine learning where algorithms are created and function similar to those in machine learning, but there are numerous layers of these algorithms each providing a
+    different interpretation to the data it feeds on. Such a network of algorithms are called artificial neural networks
+    --It is basically depend on bioligical function of neuron which is imp part of human brain
+    --It is best for large dataset and complex dataset  also very much time consuming.
+
+
+14. What is a perceptron?
+
+answer:
+A perceptron is a neural network unit (an artificial neuron) that does certain computations to detect features or business intelligence in the input data. 
+The perceptron is one of the easiest data structures for the study of neural networking
+Perceptrons can be viewed as building blocks in a single layer in a neural network, made up of four different parts:Input Values or One Input Layer,Weights and Bias,Net sum,Activation function
+
+15. What’s the difference between AI and ML?
+
+answer:
+Artificial intelligence and machine learning are the part of computer science that are correlated with each other
+
+Artificial intelligence:
+--It is a technology using which we can create intelligent systems that can simulate human intelligence.
+--The goal of AI is to make a smart computer system like humans to solve complex problems.
+--AI system is concerned about maximizing the chances of success
+--AI completely deals with Structured, semi-structured, and unstructured data.
+--In AI, we make intelligent systems to perform any task like a human.
+
+Machine learning :
+--It is a subfield of artificial intelligence, which enables machines to learn from past data or experiences without being explicitly programmed
+--The goal of ML is to allow machines to learn from data so that they can give accurate output.
+--Machine learning is mainly concerned about accuracy and patterns
+--Machine learning deals with Structured and semi-structured data.
+--In ML, we teach machines with data to perform a particular task and give an accurate result.
+
+
