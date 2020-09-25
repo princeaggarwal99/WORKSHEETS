@@ -1,0 +1,119 @@
+
+WEB SCRAPING – WORKSHEET 2 solutions:
+
+1.) C) find_all()
+
+2.) C) Unix
+
+3.) C) ASP
+
+4.) D) send_keys()
+
+5.) C) Crawling
+
+6.) C) Web-spider
+
+7.) C) WebDriverWait
+
+8.) A) title_contains
+
+9.) C) XML
+
+10.) B) find_element_by_id
+
+11.) A) class B) href
+
+12.) C) lxml
+
+13.) A) Selenium B) BeautifulSoup  C) Requests
+
+14. Write a python program to scrap 10 images of Rayban Sunglasses from flipkart website and save them in a directory.
+==>>
+
+from selenium import webdriver
+from selenium.common.exceptions import StaleElementReferenceException
+from keras.preprocessing.image import save_img
+import os
+import shutil 
+import requests
+import pandas as pd 
+import csv 
+# function for making directory
+def make_directory(dirname):
+    current_path=os.getcwd()
+    path=os.path.join(current_path,dirname)
+    if not os.path.exists(path):
+        os.makedirs(path)
+# for downloading images:
+def save_images(data,dirname,page):
+    for index,link in enumerate(data['images']):
+        print("downloading {0} of {1} images".format(index + 1, len(data['images'])))
+        response=requests.get(link)
+        with open('{0}/img_{1} {2}.jpg'.format(dirname,page,index),"wb") as file:
+            file.write(response.content)
+        
+          
+driver_path=r"C:\Users\prince\Downloads\chromedriver_win32\chromedriver.exe "
+DIR_NAME="RAY_BAN"
+make_directory(DIR_NAME)
+
+driver=webdriver.Chrome(executable_path=driver_path)
+page_shirt_men=driver.get("https://www.flipkart.com/sunglasses/ray-ban~brand/pr?sid=26x")
+def scrap_images(driver):
+    images=driver.find_elements_by_xpath("//div[@class='_3ZJShS _31bMyl']//img[@class='_3togXc']")
+    images=images[0:10]
+    product_data= {}
+    product_data['images']=[]
+    
+    for image in images:
+        source=image.get_attribute('src')
+        product_data['images'].append(source)
+        
+    return product_data    
+
+product_details=scrap_images(driver=driver)
+save_images(data=product_details,dirname=DIR_NAME,page=1)
+
+        
+       
+
+
+
+15. Write a program to scrap 20 mouses’ data which includes model name, price from www.amazon.in whose price is less than 500 and make a data frame with 2 columns “model_name”,” price” with the scraped data.
+
+MOUSES = driver.get('https://www.amazon.in/s?k=mouse+for+laptop&i=computers&rh=p_36%3A-49900&qid=1600926389&rnid=1318502031&ref=sr_nr_p_36_5')
+def scrap_data(driver):
+    product_data={}
+    
+    brand=driver.find_elements_by_xpath("//span[@class='a-size-medium a-color-base a-text-normal']")
+    prices=driver.find_elements_by_xpath("//span[@class='a-price-whole']")
+    
+    
+    product_data['brand'] = []
+    product_data['price'] = []
+    
+    
+    
+   
+    for brands in brand:
+        product_data['brand'].append(brands.text)
+    for price in prices:
+        product_data['price'].append(price.text)
+    
+   
+    return product_data
+
+def save_to_csv(data,filename):
+    df = pd.DataFrame(data)
+    df.to_csv(filename,mode='a',encoding='utf-8-sig')
+
+start_page=0
+total_page=2
+for page in range(start_page,total_page+1):
+    product_details = scrap_image(driver=driver)
+    print("scrap page {0} of {1} pages".format(page,total_page))
+    save_to_csv(data=product_details,filename='mouses.csv')
+
+df = pd.read_csv(r"C:\Users\prince\mouses.csv")
+df.drop('Unnamed: 0',inplace=True,axis=1)
+df.head(20)
