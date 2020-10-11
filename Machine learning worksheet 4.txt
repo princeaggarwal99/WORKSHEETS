@@ -1,0 +1,48 @@
+MACHINE LEARNING – WORKSHEET 4 solutions:
+
+1.) A) GridSearchCV()
+
+2.) A) Random forest
+
+3.) B) The regularization will decrease
+
+4.) C) both A & B
+
+5.) A) It's an ensemble of weak learners.
+
+6.) C) Both of them
+
+7.) C)both bias and variance increase
+
+8.) B) model is overfitting
+
+9.) gini  = 1-(4/10)2 - (6/10)2 = 0.48
+
+10.) Random Forest is suitable for situations when we have a large dataset, and interpretability is not a major concern over decision tree
+     Random Forest has a higher training time than a single decision tree
+     Random forest is an ensemble techniques which uses multipple trees which plkay a role of weak learners and each tree learn some information 
+     from the data set and at the end all the information are combines to make one strong learner model and also try to limit the overfitting as comapre to decsion tree.
+
+11.)  In many machine learning algorithms, to bring all features in the same standing, we need to do scaling so that one significant number doesn’t impact the model
+      just because of their large magnitude
+      scaling in machine learning is one of the most critical steps during the pre-processing of data before creating a machine learning model. Scaling can make a 
+      difference between a weak machine learning model and a better one and it make all the data set values in standard form 
+      two techniques are :
+      ==> minmax scaler()
+      ==> standard scaler()
+
+12.)  As optimaization play an important role in gradient descent as in the end we have to reach the global minima and it depends on the optimizers whther to reach the global minima early or late.
+      Gradient descent is a simple optimization procedure that you can use with many machine learning algorithms.
+      feature scaling helps in causing Gradient Descent to converge much faster as standardizing all the variables on to the same scale, for example, for a linear regression makes it easy to calculate the slope
+
+13.)  In case of a highly imbalanced dataset for a classification problem, accuracy is not a good metric to measure because in the framework of imbalanced data-sets, accuracy is no 
+      longer a proper measure, since it does not distinguish between the numbers of correctly classified examples of different classes.
+
+14.) In statistics, the F1 score is a measure of a test's accuracy. It is calculated from the precision and recall of the test, where the precision is the number of correctly identified 
+     positive results divided by the number of all positive results, including those not identified correctly, and the recall is the number of correctly identified positive results divided by the number of all samples that should have been identified as positive.
+     The highest possible value of F1 is 1,indicating perfect precision and recall
+     F1 = tp/tp + 0.5(fp+fn)
+
+15.)  fit() just calculates the parameters (e.g. μ and σ in case of StandardScaler) and saves them as an internal object's state. 
+      Afterwards, you can call its transform() method to apply the transformation to any particular set of examples.
+      fit_transform() joins these two steps and is used for the initial fitting of parameters on the training set x, while also returning the transformed x′. Internally, the transformer object just calls first fit() and then transform() on the same data.
