@@ -1,0 +1,50 @@
+
+DEEP LEARNING  WORKSHEET-2 solutions:
+
+1.) C) serially or parallely
+
+2.) A) Rosenblatt, 1958
+
+3.) C)
+
+4.) B) [8×3], [5×8]
+
+5.) C) A unit which doesn’t update during training by any of its neighbour
+
+6.) B) softmax
+
+7.) D) weights
+
+8.) B) output units are updated sequentially
+
+9.) A) EarlyStopping
+    B) Dropout
+
+10.) C) It is applicable when the input/output is a sequence (e.g., a sequence of words)
+     D) RNNs represent the recurrent process of Idea->Code->Experiment->Idea->....
+
+11.) the activation function will be "sigmoid function"
+
+12.) if we use large learning rate:
+     A learning rate that is too large can cause the model to converge too quickly to a suboptimal solution,
+     the global minima will never come to end, as learning rate is large then the new weight will come in negative which will never reach to global minima. 
+     
+     If we use small learning rate:
+     whereas a learning rate that is too small can cause the process to get stuck,there is very small change in new weight at the time of back propagation and 
+     the time to reach global minima will increase.
+
+
+13.) # 8 different input patterns this node can receive
+     # 16 different input patterns this node can receive in case of 4 nodes 
+     # 32 different input patterns this node can receive in case of 5 nodes 
+
+     # it is a binary input function as there fore we can using simply 2 to the power n (n= no of nodes)  ==> 2^n as a formula in case of binary inputs 
+       similarly k to the power n ==>  k^n can be used where k is the number of input patterns and n be the nodes
+
+14.) In a network of n hidden layers, n derivatives will be multiplied together. If the derivatives are large then the gradient will increase exponentially 
+     as we propagate down the model until they eventually explode, and this is what we call the problem of exploding gradient. Alternatively, if the derivatives
+     are small then the gradient will decrease exponentially as we propagate through the model until it eventually vanishes, and this is the vanishing gradient problem.
+
+15.) # an epoch is when an entire dataset is passed forward and backward through the neural network only once.
+     # The batch size is a hyperparameter that defines the number of samples to work through before updating the internal model parameters
+     # Iterations is the number of batches needed to complete one epoch . So, every time you pass a batch of data through the NN, you completed an iteration
