@@ -1,0 +1,43 @@
+
+NLP-WORKSHEET-3 solutions:
+
+1.) A) Lancaster Stemmer
+    B) Porter Stemmer
+    C) Snowball Stemmer 
+
+2.) A) All the words can be reduced to their base form
+    B) so that we do not end up with too many words in the vocabulary which are not adding information to the model.   
+    C) so that lengths of words are reduced.
+
+3.) A) Semantic Processing
+
+4.) B) Chunking
+    C) tokenization
+ 
+5.) D) All of the above
+
+6.) C) Rule Based Taggers
+
+7.) C) It assigns tag by finding the most frequent tag occurring for that word in the training corpora
+
+8.) A) The transition probabilities refer to probabilities of transitioning from one tag to another tag.
+
+9.) C) VP 
+    D) NP
+
+10.) A) Modeling a Sequential process 
+     B) POS tagging
+
+11.) A) POS tagging
+
+12.) A) Top-Down Parsing
+
+13.) A) It starts with start symbol S.
+     B) we use the CFG production rule to generate the sentence from the S start symbol.
+
+14.) D) All of the above
+
+15.) A) It is normalized form of a CFG.
+     C) A CFG with no terminal symbol is called Chomksy Normal Form.
+
+16.) C) Count-vectorization to create BOW for lexical level analysis.
