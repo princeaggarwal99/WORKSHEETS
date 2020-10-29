@@ -1,0 +1,29 @@
+
+MACHINE LEARNING – WORKSHEET 6 solutions:
+
+1.) A) Yes
+
+2.) A) Red
+
+3.) B) They cannot be used when the data is not completely linearly separable while allowing no errors
+    C) They are not optimal to use in case of outliers
+
+4.) D) All of the above
+
+5.) B) No
+
+6.) A) They are less sensitive to outliers and can be used even in their presence
+    C) They allow some degree of errors or misclassification
+
+
+7.) D) All of the above
+
+8.) A) These functions gives value of the dot product of pairs of data-points in the desired higher dimensional
+    space without even explicitly converting the whole data in to higher dimensional space
+    C) The data product values given by the kernel functions are used to find the classifier in the higher
+    dimensional space.
+
+9.) C) It is a model trained using supervised learning. It can be used for classification and regression.
+
+10.) D) All of the above
+
