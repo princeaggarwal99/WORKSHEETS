@@ -1,0 +1,75 @@
+
+Statistics– WORKSHEET 4 solutions:
+
+1.) a) True
+
+2.) a) Central Limit Theorem
+
+3.) b) Modeling bounded count data
+
+4.) d) All of the mentioned
+
+5.) c) Poisson
+
+6.) b) False
+
+7.) b) Hypothesis
+
+8.) a) 0
+
+9.) c) Outliers cannot conform to the regression relationship
+
+10.) Normal distribution is a probability distribution that is symmetric about the mean, showing that data near the mean are more frequent 
+     in occurrence than data far from the mean. In graph form, normal distribution will appear as a bell curve.
+     # The mean, mode and median are all equal.
+     # The curve is symmetric at the center (i.e. around the mean, μ).
+     # Exactly half of the values are to the left of center and exactly half the values are to the right.
+     # The total area under the curve is 1.
+
+11.)  we can use multiple-regression analysis to estimate a missing value. We use this technique to deal with missing SUS scores. Regression substitution 
+      predicts the missing value from the other values
+      
+      ==> There are a lot of techniques to treat missing value. 
+      # Substitute a value such as mean,median and mode:
+      When the percentage is large and also when it makes sense to do something to avoid bias modeling results, substituting a value (e.g. mean, median)
+      is a commonly used way. But this method could cause bias distribution and variance. That’s where the following imputation methods come in.
+
+      # Regression imputation
+      The predicted value obtained by regressing the missing variable on other variables.
+
+      # Interpolation and extrapolation
+      An estimated value from other observations from the same individual. It usually only works in longitudinal data.
+
+      # Dropping rows with null values
+      The easiest and quickest approach to a missing data problem is dropping the offending entries.
+
+      # using libraries such as KNN IMPUTER , ffill etc.
+
+12.) An AB test is an example of statistical hypothesis testing , in other words statistical inference, a process whereby a hypothesis is made about the relationship
+     between two data sets and those data sets are then compared against each other to determine if there is a statistically significant relationship or not.
+
+13.) mean imputation of missing data is bad practice in general:
+     If just estimating means: mean imputation preserves the mean of the observed data and also Leads to an underestimate of the standard deviation.
+     hence, Distorts relationships between variables by “pulling” estimates of the correlation toward zero.
+
+14.) In statistics, linear regression is a linear approach to modeling the relationship between a scalar response and one or more explanatory variables.
+     The case of one explanatory variable is called simple linear regression. For more than one explanatory variable, the process is called multiple linear regression
+
+15.) If we consider the branches of statistics, there are two branches in it. They are:
+      
+       # Descriptive Statistics :
+       Descriptive statistics deals with the presentation and collection of data. This is usually the first part of a statistical analysis. It is usually not as simple
+       as it sounds, and the statistician needs to be aware of designing experiments, choosing the right focus group and avoid biases that are so easy to creep into the experiment.
+       Descriptive statistics forms a basis for analysis and discussion in such diverse fields as security trading, the social sciences, professional sports so on. 
+       it is not used to draw conclusion about the population
+
+       # Inferential Statistics :
+       Inferential statistics, as the name suggests, involves drawing the right conclusions from the statistical analysis that has been performed using descriptive statistics. 
+       In the end, it is the inferences that make studies important and this aspect is dealt with in inferential statistics.
+       Most predictions of the future and generalizations about a population by studying a smaller sample come under the purview of inferential statistics. Most social sciences 
+       experiments deal with studying a small sample population that helps determine how the population in general behaves. By designing the right experiment, the researcher is able
+       to draw conclusions relevant to his study.
+       Inferential statistics is used to estimate the parameters of the population.
+
+
+
