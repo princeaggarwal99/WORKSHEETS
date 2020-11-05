@@ -1,0 +1,67 @@
+
+DEEP LEARNING – WORKSHEET 3 solutions:
+
+
+1.) B) As number of hidden layers increase, model capacity increases
+
+2.) C) It normalizes (changes) all the input before sending it to the next layer
+
+3.) A) Network will not converge
+
+4.) D) All of these
+
+5.) C) (-4, -4, 3)
+
+6.) B) Simulate the network on a test dataset after every epoch of training. Stop training when the generalization
+       error starts to increase
+
+7.) B) Stochastic Gradient Descent
+
+8.) A) Freeze all the layers except the last, re-train the last layer
+
+9.) A) Overfitting
+    C) Restrict activations to become too high or low
+
+10.) B) sigmoid
+
+11.) If we do not use activation function in artificial neural networks then Non-linearity will not be introduced into the output of a neuron , the output signal
+     would simply be a simple linear function.A linear function is just a polynomial of one degree ,every neuron will only be performing a linear transformation on
+     the inputs using the weights and biases.
+
+12.) Forward propagation (or forward pass) refers to the calculation and storage of intermediate variables (including outputs) for a neural network in order from 
+     the input layer to the output layer. We now work step-by-step through the mechanics of a neural network with one hidden layer. In the forward propagation, we
+     check what the neural network predicts for the first training example with initial weights and bias.
+     
+     Backpropagation refers to the method of calculating the gradient of neural network parameters. In short, the method traverses the network in reverse order, from
+     the output to the input layer, according to the chain rule from calculus. The algorithm stores any intermediate variables (partial derivatives) required while
+     calculating the gradient with respect to some parameters.
+
+13.) The goal of the gradient descent is to minimise a given function which, in our case, is the loss function of the neural network.
+    # Batch Gradient Descent :
+     In Batch Gradient Descent, all the training data is taken into consideration to take a single step. We take the average of the gradients of all the training examples 
+     and then use that mean gradient to update our parameters. So that’s just one step of gradient descent in one epoch.
+     Batch Gradient Descent is great for convex or relatively smooth error manifolds. In this case, we move somewhat directly towards an optimum solution.
+    
+    # Stochastic Gradient Descent :
+     if our dataset is very huge,deep learning models crave for data. The more the data the more chances of a model to be good. Suppose our dataset has 5 million examples, 
+     then just to take one step the model will have to calculate the gradients of all the 5 million examples. This does not seem an efficient way. To tackle this problem we
+     have Stochastic Gradient Descent. In Stochastic Gradient Descent (SGD), we consider just one example at a time to take a single step.
+
+    # Mini Batch Gradient Descent :
+     Mini Batch Gradient Descent is a variation of the gradient descent algorithm that splits the training datasets into small batches that are used to calculate model error
+     and update model coefficients.
+
+
+14.) Main benefits of Mini-batch Gradient Descent :
+     -Easily fits in the memory. 
+     -It is computationally efficient.
+     -Benefit from vectorization.
+     -If stuck in local minimums, some noisy steps can lead the way out of them.
+     -Average of the training samples produces stable error gradients and convergence.
+
+15.) Transfer learning is a research problem in machine learning that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem. 
+     For example, knowledge gained while learning to recognize cars could apply when trying to recognize trucks. 
+      
+       
+
+
