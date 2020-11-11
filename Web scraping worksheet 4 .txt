@@ -1,0 +1,39 @@
+WEB SCRAPING – WORKSHEET 4 solutions:
+
+1.) C) find_element_by_name()
+
+2.) C) find_element_by_tag_name()
+
+3.) D) None of them
+
+4.) B) visibility_of
+
+5.) B) Very Slow
+
+6.) D) All of the above
+
+7.) A) spiders are classes which define how a certain site will be scrapped.
+
+8.) C) Hyper Text Markup Language
+
+9.) B) soup=BeautifulSoup(html_doc,’html.parser’)
+
+10.) D) “html-xml”
+
+11.) B) Find_all()
+
+12.) A) find_previous_siblings()
+
+13.) C) limit
+
+14.) A) recursive = True
+
+15.)  find()：
+            Gets the first tag of the incoming HTML object that satisfies the condition and returns.
+            A function of a label group or a single label.
+            Prototype: find(tag, atributes, recursive, text, keywords)
+            Parameter tag:Indicates the type of tag you need to find. There can be multiple tags.
+      findAll()：
+             Get all the conditions of the incoming HTML object and return it.
+             Prototype: findAll(tag, atributes, recursive, text, limit, keywords)
+             Parameter tag:Indicates the type of tag you need to find. There can be multiple tags.
