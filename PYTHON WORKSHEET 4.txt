@@ -1,0 +1,42 @@
+PYTHON WORKSHEET – WORKSHEET 4 solutions:
+
+1.) B) len()
+
+2.) B) interpreted
+
+3.) B) [1,2,2,1]
+
+4.) D) [60,30]
+
+5.) C) a[ : :-1]
+
+6.) B) Meena
+
+7.) C) [“World Hello ”, “Python Hello ”, “World Adios ”, “Python Adios ”]
+
+8.) A) 4
+
+9.) A) l1+l2 
+    B) l1.append(l2)
+
+10.) A) s[0]+s[-1] 
+     B) s[ : : -1][-1] + s[len(s)-1] 
+     D) s[ : : -1][ : : -6]
+
+11.)  Interpreter:
+      Translates program one statement at a time.Interpreters usually take less amount of time to analyze the source code. 
+      However, the overall execution time is comparatively slower than compilers.
+      Compiler:
+      Scans the entire program and translates it as a whole into machine code.Compilers usually take a large amount of time to analyze the source code. 
+      However, the overall execution time is comparatively faster than interpreters.
+      
+      python is interpreted language therefore interpreter is used in python.
+
+12.)  PYTHONPATH is used to assist in import module lookup. So when you import modules, PYTHONPATH is also looked into to check which directories might contain the imported module. 
+     
+13.)  Python String strip() function will remove leading and trailing whitespaces. If you want to remove only leading or trailing spaces, use lstrip() or rstrip() function instead.
+      str= "  Hello World  "
+      str.strip()
+      >> output : 'Hello World'
+
+Q.14 and Q.15 in jupyter notebook file -

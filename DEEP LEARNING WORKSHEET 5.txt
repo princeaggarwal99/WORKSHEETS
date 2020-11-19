@@ -1,0 +1,53 @@
+DEEP LEARNING – WORKSHEET 5 solutions:
+
+1.) D) All of the above
+
+2.) C) Sigmoids saturate and kill gradients.
+
+3.) B) Maxout
+
+4.) A) True
+
+5.) B) Xavier Initialisation
+
+6.) A) learning rate shrinks and becomes infinitesimally small
+
+7.) D) momentum must be low and learning rate must be high
+
+8.) A) when it has many local minima
+
+9.) A) ADAM
+    D) RMS Prop
+
+10.) C) when it reaches global minimum
+     D) when it reaches a local minima which is similar to global minima (i.e. which has very less error distance with global minima)
+
+11.) convex optimization :
+     A convex optimization problem is a problem where all of the constraints are convex functions, and the objective is a convex function if minimizing, 
+     or a concave function if maximizing
+ 
+     non-convex optimization :
+     A non-convex optimization problem is any problem where the objective or any of the constraints are non-convex
+     Such a problem may have multiple feasible regions and multiple locally optimal points within each region.  It can take time exponential in the number 
+     of variables and constraints to determine that a non-convex problem is infeasible, that the objective function is unbounded, or that an optimal solution 
+     is the "global optimum" across all feasible regions.
+
+12.) saddle point:
+    -a point on a curved surface at which the curvatures in two mutually perpendicular planes are of opposite signs
+    -a point on the surface of the graph of a function where the slopes (derivatives) in orthogonal directions are all zero (a critical point), but which is 
+     not a local extremum of the function. An example of a saddle point is when there is a critical point with a relative minimum along one axial direction (between peaks)
+     and at a relative maximum along the crossing axis
+
+13.) The distinction between Momentum method and Nesterov Accelerated Gradient updates was  both methods are distinct only when the learning rate is reasonably large. 
+     When the learning rate is relatively large, Nesterov Accelerated Gradients allows larger decay rate than Momentum method, while preventing oscillations. The theorem 
+     also shows that both Momentum method and Nesterov Accelerated Gradient become equivalent when learning rate is small.
+
+14.) The aim of weight initialization is to prevent layer activation outputs from exploding or vanishing during the course of a forward pass through a deep neural network.
+     Pre initialisation of weights is initialisation of weights randomly during building the layers ie the convolution , hidden and output layer for the first time as before getting 
+     any output or finding the loss occured just to prevent layer activation outputs from exploding or vanishing
+    
+15.) An internal covariance shift occurs when there is a change in the input distribution to our network. When the input distribution changes, hidden layers try to learn to adapt
+     to the new distribution. This slows down the training process.We define Internal Covariate Shift as the change in the distribution of network activations due to the change in 
+     network parameters during training. In neural networks, the output of the first layer feeds into the second layer, the output of the second layer feeds into the third, and so on.
+
+

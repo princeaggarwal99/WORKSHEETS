@@ -1,0 +1,45 @@
+SQL WORKSHEET 4 solutions:
+
+1 : select AVG(orderNumber) as avgshippedorder from orders where status='shipped';
+
+
+2: select AVG(orderNumber) as avgplacedorder from orders where status='placed';
+
+
+3: select productName from products orderby MSRP ASC LIMIT 1;
+
+
+4: select productName from products orderby quantityInStock DSC LIMIT 1;
+
+
+5: select productName from products where productCode IN(select max(productCode) from orderdetails);
+
+
+6: select customerName from customers where customerNumber IN (select customerNumber from payments where ORDERBY amount DESC LIMIT 1);
+
+
+7: select customerNumber,customerName from customers where city='Melbourne';
+
+
+8: select customerName from customers where customerName LIKE 'N%';
+
+
+9: select customerName from customers where phone LIKE '^7.*' AND city='Las Vegas';
+
+
+10: select customerName from customers having creditLimit <1000 and (city='LasVegas' or "Nantes" or "Stavern");
+
+
+11: select orderNumber from orderdetails where quantityordered<10;
+
+
+12: select o.orderNumber from orders o inner join customers c on o.customernumber=c.customernumber where c.customerName LIKE 'N%';
+
+
+13:  select customerName from customers where customerNumber IN ( select customerNumber from orders where status='Disputed');
+
+
+14: select customerName from customers where customerNumber IN(select customerNumber from payments where checkNumber LIKE 'H%' and paymentDate ='2004-10-19');
+
+
+15: select checkNumber from payments having amount>1000;

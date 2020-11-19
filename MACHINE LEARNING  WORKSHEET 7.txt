@@ -1,0 +1,25 @@
+MACHINE LEARNING – WORKSHEET 7 solutions:
+
+1.) B) SVMs uses kernel functions to avoid computational load of converting the whole dataset in to higher
+       dimensional space where the data is linearly separable.
+    C) SVMs can separate classes only when the data is linearly separable.
+
+2.) D) cannot be determined from the curve
+
+3.) A) The RBF is used to find the linear classifier for the data in to infinite dimensional space.
+    B) Higher the value of gamma of RBF the more flexible the classifier curve becomes in the original
+       dimensions. 
+
+4.) C) Both of them can be used
+
+5.) B) The margin width will Increase
+
+6.) A) Figure A
+
+7.) C) D3>D2>D1
+
+8.) B) Gamma1 > Gamma2
+
+9.) B) The model would consider only the points close to the hyperplane for modelling
+
+10.) A) A large number of misclassification would happen

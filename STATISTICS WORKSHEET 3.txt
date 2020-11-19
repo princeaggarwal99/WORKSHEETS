@@ -1,0 +1,34 @@
+STATISTICS – WORKSHEET 3 solutions:
+
+1.) B) Actual 
+    D) Expected
+
+2.) D) All of these
+
+3.) C) 6
+
+4.) A) Normal distribution
+    D) Poisson distribution
+
+5.) C) F-Distribution
+
+6.) B) Hypothesis
+
+7.) A) Null Hypothesis
+
+8.) A) Two tailed
+
+9.) B) Research Hypothesis
+
+10.) A) np
+
+11.) B) Discrete distribution
+
+12.) D) √npq----
+
+13.) C) 0.099
+
+14.) D) 0 and 1
+
+15.) B) increases
+
