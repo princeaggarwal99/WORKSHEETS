@@ -1,0 +1,55 @@
+Statistics– WORKSHEET 6 solutions:
+
+1.) b) Total Variation = Residual Variation + Regression Variation
+
+2.) c) binomial
+
+3.) a) 2
+
+4.) (a) Type-I error
+
+5.) (d) Confidence coefficient
+
+6.) (a) Decreases
+
+7.) (b) Hypothesis
+
+8.) (d) All of the mentioned
+
+9.) (a) 0
+.
+10.) Bayes' theorem  describes the probability of an event, based on prior knowledge of conditions that might be related to the event and
+     is a mathematical formula for determining conditional probability For example, if the risk of developing health problems is known to 
+     increase with age, Bayes' theorem allows the risk to an individual of a known age to be assessed more accurately (by conditioning it 
+     on his age) than simply assuming that the individual is typical of the population as a whole.
+
+11.) A Z-score is a numerical measurement that describes a value's relationship to the mean of a group of values. Z-score is measured in terms
+     of standard deviations from the mean. If a Z-score is 0, it indicates that the data point's score is identical to the mean score. A Z-score 
+     of 1.0 would indicate a value that is one standard deviation from the mean. Z-scores may be positive or negative, with a positive value 
+     indicating the score is above the mean and a negative score indicating it is below the mean.
+
+12.) The t-test is any statistical hypothesis test in which the test statistic follows a Student's t-distribution under the null hypothesis.
+     A t-test is the most commonly applied when the test statistic would follow a normal distribution if the value of a scaling term in the test 
+     statistic were known.
+
+13.) In statistics, a percentile is a type of quantile which divides the given probability distribution or sample into 100 equal-sized intervals.
+     this allows the data to be analyzed in terms of percentages. 
+     basically, a percentile is a number where a certain percentage of scores fall below that number.Percentiles are commonly used to report scores 
+     in tests, like the SAT, GRE and LSAT.
+
+14.) Analysis of variance (ANOVA) is an analysis tool used in statistics that splits an observed aggregate variability found inside a data set into two parts: 
+    systematic factors and random factors.
+    The systematic factors have a statistical influence on the given data set, while the random factors do not. Analysts use the ANOVA test to determine the influence
+    that independent variables have on the dependent variable in a regression study.
+    The Formula for ANOVA is:  F= MST/MSE
+    they are basically of two types : one way anova and two way anova
+
+15.) An ANOVA test is a way to find out if survey or experiment results are significant. In other words, they help you to figure out if you need to reject the null hypothesis
+     or accept the alternate hypothesis.
+     The one-way analysis of variance (ANOVA) is used to determine whether there are any statistically significant differences between the means of three or more independent 
+     (unrelated) groups.
+     A two-way ANOVA test is a statistical test used to determine the effect of two nominal predictor variables on a continuous outcome variable.A two-way ANOVA test analyzes
+     the effect of the independent variables on the expected outcome along with their relationship to the outcome itself
+
+
+
