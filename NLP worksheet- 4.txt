@@ -1,0 +1,43 @@
+NLP – WORKSHEET 4  solutions:
+
+1.) A) It consists of a set of production rules
+    B) The production rules are of the following form:
+       A-> BC where A is non terminal while B, C can be either terminal or non-terminal 
+
+2.) A) All the production rules in PCFG has probability associated with them while in CFG we do not have
+       Probability of a production rule.
+    B) With PCFG we can find the most probable parse tree of a sentence which we cannot find CFG.
+
+3.) D) All of the above
+
+4.) A) Free word parsing
+ 
+5.) A) It establish dependencies between words of a sentence
+    B) The dependencies are established in terms of subject-object-verb and other dependencies.
+    C) We make the parse tree in Top-Down approach
+
+6.) A) Chunking
+
+7.) C) It uses the POS tags of the required word as well as previous word to assign IOB label
+
+8.) B) It assigns IOB entity label to a word based on the POS tag of the word
+    C) It assigns that IOB label which has the maximum probability based on the POS tag
+
+9.) C) It uses the POS tag of the word and its previous word to assign the most probable IOB label
+
+10.) A) Unigram chunker 
+     B) Bigram chunker
+
+11.) A) Word Tokenization 
+     B) Lemmatization
+     D) POS tagging
+
+12.) D) All of the above
+
+13.) A) It starts with start symbol S
+     B) we use the CFG production rule to generate the sentence from the S start symbol
+
+14.) A) pattern = “#\w*” 
+    
+15.) D) pattern = “@?”
+
