@@ -1,0 +1,30 @@
+MACHINE LEARNING – WORKSHEET 8 solutions:
+
+1.) B) Є can be either or negative
+    C) Є is the error which is introduced because there may be some predictor variables apart from the given
+       variable which are effecting the response variable
+
+2.) A) It covers up the errors introduced because of the variables which are not present in the given predictors set
+       X but they are influencing the response variable.
+    B) It also covers up the measurement errors in the response variable.
+
+3.) C) The random error will be dependent on X.
+
+4.) A) To predict the sales of a product based on the marketing budget on different media like TV, Newspaper,
+       Radio, etc.
+    B) To understand the relationship between the response variable sales and the predictor variables marketing
+       budget on different media like TV, Newspaper, Radio, etc.
+    C) To predict the stock price of a company based on the previous stocks prices.
+
+5.) A) The random error can be reduced by Least squares method.
+    B) The random error can be reduced if we try to fit a non-linear curve to the data.
+
+6.) B) Least Squares Method
+
+7.) A) y1 = Β*x1 + C, where B and C are parameters.
+
+8.) B) Polynomial function of AGE with degree>1
+
+9.) C) -1 < P < 0
+
+10.) A) Pearson Correlation Coefficient P = 1
