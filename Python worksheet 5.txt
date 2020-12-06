@@ -1,0 +1,77 @@
+PYTHON WORKSHEET – 5 solutions:
+
+1.) C) +
+
+2.) C) i-False, ii-False
+
+3.) B) [“ABC”,” RAHUL”,” NITIN”]
+
+4.) D) [2,4,6]
+
+5.) C) [6]
+
+6.) D) None of the above
+
+7.) B) error
+
+8.) C) a[1][1]
+
+9.) D) None of the above
+
+10.) D) All of the above
+
+11.)i) lists are ordered which means they retain ordering as determined by the program using the list; sets are not ordered 
+       there is no concept of first, second etc - and there is no way that a programmer can control the order in which a set
+       is iterated, displayed or otherwise presented. (Note ordering is not the same as being sorted - but sets can’t be sorted either).
+    
+    ii) a list can be indexed by integer (starting from 0); a set cannot be indexed (there is no concept of the first item in a set except
+        when it is iterated)
+
+12.) def square(list):
+       return [i ** 2 for i in list]
+
+     l1=[10,20,30,40]
+     square(list=l1)
+     
+13.)  def remove_duplicates(list): 
+         final_list = [] 
+         for num in list: 
+            if num not in final_list: 
+            final_list.append(num) 
+      return final_list 
+
+      l1 = [2, 4, 10, 20, 5, 2, 20, 4] 
+      print(remove_duplicates(list=l1)) 
+
+14.) 
+
+# sets  
+A = {0, 2, 4, 6, 8};
+B = {1, 2, 3, 4, 5}; 
+  
+# intersection 
+print("Intersection :", A & B)
+
+# union 
+print("Union :", A | B) 
+  
+# difference 
+print("Difference :", A - B) 
+  
+# symmetric difference 
+print("Symmetric difference :", A ^ B)
+
+15.)
+
+set_num={1,2,5,8,10}
+a=0
+for i in set_num:
+  a=i+a
+print(a)
+
+set_string={'she','ran','away'}
+a=''
+for i in set_string:
+  a=i+' '+a
+print(a)
+
