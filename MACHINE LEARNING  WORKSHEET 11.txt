@@ -1,0 +1,49 @@
+MACHINE LEARNING – WORKSHEET 11 solutions:
+
+1.) B) always increases
+
+2.) C) SSE = SSR – SST
+
+3.) A) difference between the actual value and the predicted value.
+
+4.) C) By its slope
+
+5.) A) must also be equal to 1
+
+6.) A) Scatter plot
+
+7.) B) f-statistics
+
+8.) A) Lasso
+
+9.) B) It shows the positive or negative relation between dependent and independent variables
+    C) It always goes through origin
+
+10.) B) Generalizing the test set
+     C) Automatic feature selection 
+
+11.) A) Normal Equation B) Singular Value Decomposition
+
+12.) R-squared, also known as the coefficient determination, defines the degree to which the variance in the dependent variable (or target) can be explained 
+     by the independent variable (features).
+     the Adjusted R-squared measures the variation in the dependent variable (or target), explained by only the features which are helpful in making predictions.
+     Unlike R-squared, the Adjusted R-squared would penalize you for adding features which are not useful for predicting the target.
+     -If the R2 increases by a significant value, then the adjusted r-squared would increase.
+     -If there is no significant change in R2, then the adjusted r2 would decrease.
+
+13.) cost function- It is a function that measures the performance of a Machine Learning model for given data. Cost Function quantifies the error between predicted
+     values and expected values and presents it in the form of a single real number. Depending on the problem Cost Function can be formed in many different ways. 
+
+14.) The sum of squares total, denoted SST, is the squared differences between the observed dependent variable and its mean
+     The second term is the sum of squares due to regression, or SSR. It is the sum of the differences between the predicted value and the mean of the dependent variable.
+     The last term is the sum of squares error, or SSE. The error is the difference between the observed value and the predicted value.
+
+15.) Mean Squared Error (MSE)
+     Mean Absolute Error (MAE)
+     R-squared or Coefficient of Determination
+     Calculating regression error
+     Calculating squared residual error
+     Calculating the coefficient of determination with RSS & TSS
+     accuracy score
+
+
